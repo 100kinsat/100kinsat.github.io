@@ -2,6 +2,7 @@
   The common styles
 */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;900&display=swap');
+@import url('http://fonts.googleapis.com/earlyaccess/notosansjp.css');
 
 @mixin mode-toggle($dark-mode: false) {
   @if $dark-mode {
@@ -50,7 +51,7 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Noto Sans JP', 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 
 /* --- Typography --- */
