@@ -6,18 +6,15 @@ categories: [Tutorial]
 tags: [100kinsat, edusat]
 ---
 
-100kinSATの基板は設計データを中国の企業（[ELECROW](https://www.elecrow.com/)）に発注することで入手できます．注文にはクレジットカードが必要となります．料金は送料込みで10枚2000円ほどかかります．
+### はじめに
 
-### 目次
- - [STEP1：ガーバデータの入手](#step1ガーバデータの入手)
- - [STEP2：基板の発注](#step2基板の発注)
- - [STEP3：基板の受け取り](#step3基板の受け取り)
+100kinSATの基板は設計データを中国の企業（[ELECROW](https://www.elecrow.com/)）に発注することで入手できます．注文にはクレジットカードが必要となります．料金は送料込みで10枚2000円ほどかかります．
 
 ### STEP1：ガーバデータの入手
 
 まずは基板の発注用データ（ガーバデータ）をダウンロードします．
 
-[こちら](https://github.com/ymt117/100kinSAT/tree/master/data/Gerver)からガーバデータ（100kinSAT_ver3.X.zip）をダウンロードしてください．
+[こちら](https://github.com/100kinsat/100kinSAT/tree/master/data/Gerver)からガーバデータ（100kinSAT_ver3.X.zip）をダウンロードしてください．
 
 「X」の数字が大きいものが新しいバージョンです．新しいバージョンのデータをインストールしてください．
 
