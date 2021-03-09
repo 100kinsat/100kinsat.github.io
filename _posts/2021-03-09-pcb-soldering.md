@@ -36,7 +36,7 @@ r { color: Red }
 
 ### 部品リスト
 
-部品リストは[こちらのエクセルファイル](/assets/img/post/pcb-soldering/100kinSAT_ver3.4_BOM.xlsx)を参考にしてください．リファレンスの列に記載されている「SP1」などの番号が基板上に印刷されている番号と対応します．
+部品リストは[こちらのエクセルファイル]({{ site.url }}/assets/img/post/pcb-soldering/100kinSAT_ver3.4_BOM.xlsx)を参考にしてください．リファレンスの列に記載されている「SP1」などの番号が基板上に印刷されている番号と対応します．
 
 ![bom1](/assets/img/post/pcb-soldering/bom1.png){: width="50% .normal}
 ![bom2](/assets/img/post/pcb-soldering/bom2.jpg){: width="50% .normal}
