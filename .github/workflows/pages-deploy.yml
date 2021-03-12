@@ -18,7 +18,8 @@ jobs:
 
     steps:
       - name: libffi6
-        run: sudo apt install libffi6
+        run: sudo apt-get install libffi6
+
       - name: Checkout
         uses: actions/checkout@v2
         with:
