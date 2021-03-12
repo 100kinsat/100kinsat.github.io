@@ -17,6 +17,8 @@ jobs:
       GEMS_PATH: ~/vendor/bundle
 
     steps:
+      - name: libffi6
+        run: sudo apt install libffi6
       - name: Checkout
         uses: actions/checkout@v2
         with:
