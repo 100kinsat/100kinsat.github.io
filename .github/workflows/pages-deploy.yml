@@ -11,15 +11,12 @@ on:
 jobs:
   continuous-delivery:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     env:
       GEMS_PATH: ~/vendor/bundle
 
     steps:
-      - name: libffi6
-        run: sudo apt-get install libffi6
-
       - name: Checkout
         uses: actions/checkout@v2
         with:
