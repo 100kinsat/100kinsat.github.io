@@ -2,7 +2,7 @@
 title: 開発環境のセットアップ
 author: ymt117
 date: 2021-03-09
-category: [CanSatをはじめる前に]
+categories: [CanSatをはじめる前に, 準備編]
 tags: [100kinsat, edusat]
 ---
 

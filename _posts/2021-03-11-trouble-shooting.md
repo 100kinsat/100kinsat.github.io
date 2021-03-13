@@ -2,7 +2,7 @@
 title: トラブルシューティング
 author: ymt117
 date: 2021-03-11
-category: [トラブルシューティング]
+categories: [その他, トラブルシューティング]
 tags: [100kinsat, edusat]
 ---
 

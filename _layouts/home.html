@@ -45,6 +45,10 @@ layout: page
 {% for post in posts %}
 
   <div class="post-preview">
+    {% if post.pin %}
+    <div id="pinned-list">
+    {% endif %}
+
     <h1>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h1>
@@ -83,6 +87,9 @@ layout: page
       </div>
       {% endif %}
 
+    {% if post.pin %}
+    </div> <!-- "pinned-list" -->
+    {% endif %}
     </div> <!-- .post-meta -->
 
   </div> <!-- .post-review -->

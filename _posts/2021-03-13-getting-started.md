@@ -2,7 +2,7 @@
 title: 最初に読むページ
 author: ymt117
 date: 2021-03-13
-category: [CanSatをはじめる前に]
+categories: [CanSatをはじめる前に, はじめに]
 tags: [100kinsat, edusat]
 pin: true
 ---
@@ -15,6 +15,8 @@ pin: true
 # CanSatをはじめる前に
 ---
 
+## 準備編
+
 - [基板の入手方法]({% post_url 2021-03-08-get-the-pcb-board %})
 - [部品の入手方法]({% post_url 2021-03-09-get-the-electronic-components %})
 - [開発環境のセットアップ]({% post_url 2021-03-09-setup-the-development-environment %})
@@ -23,5 +25,7 @@ pin: true
 
 # CanSatをはじめよう
 ---
+
+## 基礎編
 
 - [パラシュートの作り方]({% post_url 2021-03-13-make-parachute %})
