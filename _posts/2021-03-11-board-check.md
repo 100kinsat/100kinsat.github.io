@@ -2,7 +2,7 @@
 title: 基板の動作確認
 author: ymt117
 date: 2021-03-11
-categories: [Tutorial]
+category: [CanSatをはじめる前に]
 tags: [100kinsat, edusat]
 ---
 

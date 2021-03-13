@@ -2,7 +2,7 @@
 title: パラシュートの作り方
 author: ymt117
 date: 2021-03-13
-categories: [CanSatをはじめよう]
+category: [CanSatをはじめよう]
 tags: [100kinsat, edusat]
 ---
 

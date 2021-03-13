@@ -2,7 +2,7 @@
 title: 部品の入手方法
 author: ymt117
 date: 2021-03-09
-categories: [Tutorial]
+category: [CanSatをはじめる前に]
 tags: [100kinsat, edusat]
 ---
 
