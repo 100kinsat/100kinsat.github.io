@@ -45,7 +45,7 @@ h2 {
 > スマホを載せて走行して，ポケモンGOの卵を孵化させるミッションに挑戦しました．
 
 |:---:|:---:|:---:|
-|![v1_1](/assets/img/activities/100kinsat_v1_1.jpg){: width="400"}|![v1_2](/assets/img/activities/100kinsat_v1_2.jpg){: width="400"}|![v1_3](/assets/img/activities/100kinsat_v1_3.jpg){: width="400"}|
+|![v1_1](/assets/img/activities/100kinsat_v1_1.jpg){: width="400"}|![v1_2](/assets/img/activities/100kinsat_v1_2.JPG){: width="400"}|![v1_3](/assets/img/activities/100kinsat_v1_3.jpg){: width="400"}|
 
 ## ver.2（ガチャサット）
 ---
