@@ -29,3 +29,7 @@ pin: true
 ## 基礎編
 
 - [パラシュートの作り方]({% post_url 2021-03-13-make-parachute %})
+
+## 応用編
+
+- [複数のセンサを組み合わせる]({% post_url 2021-03-13-multiple-sensors %})
