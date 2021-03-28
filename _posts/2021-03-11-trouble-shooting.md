@@ -3,7 +3,7 @@ title: トラブルシューティング
 author: ymt117
 date: 2021-03-11
 categories: [その他, トラブルシューティング]
-tags: [100kinsat, edusat]
+tags: [100kinsat, edusat, other, trouble shooting]
 ---
 
 # 基板に電源が入らない

@@ -3,7 +3,7 @@ title: 基板の入手方法
 author: ymt117
 date: 2021-03-08
 categories: [CanSatをはじめる前に, 準備編]
-tags: [100kinsat, edusat]
+tags: [100kinsat, edusat, tutorial, pcb]
 ---
 
 ### はじめに

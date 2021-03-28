@@ -3,7 +3,7 @@ title: 複数のセンサを組み合わせる
 author: ymt117
 date: 2021-03-13
 categories: [CanSatをはじめよう, 応用編]
-tags: [100kinsat, edusat]
+tags: [100kinsat, edusat, advanced, multiple sensors]
 ---
 
 # 安全な設計思想とは

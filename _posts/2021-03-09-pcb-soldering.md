@@ -3,7 +3,7 @@ title: 基板のはんだ付け
 author: ymt117
 date: 2021-03-09
 categories: [CanSatをはじめる前に, 準備編]
-tags: [100kinsat, edusat]
+tags: [100kinsat, edusat, tutorial, soldering]
 ---
 
 <style>

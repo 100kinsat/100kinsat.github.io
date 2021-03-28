@@ -3,7 +3,7 @@ title: パラシュートの作り方
 author: ymt117
 date: 2021-03-13
 categories: [CanSatをはじめよう, 基礎編]
-tags: [100kinsat, edusat]
+tags: [100kinsat, edusat, basic, parachute]
 ---
 
 ### 準備するもの

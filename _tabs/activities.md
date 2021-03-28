@@ -20,7 +20,7 @@ h2 {
 
 若手セキュリティイノベーター育成プログラムSecHack365において，初心者向けCanSat開発キットを開発しました．
 このプロジェクトは優秀作品に選出され，2019年3月8日(金)，秋葉原のアキバ・スクエアにて成果発表を行いました[^sechack]．
-また，この成果はIPSJ情報処理学会第81回全国大会や，CYBERTECH TOKYO 2019でも発表を行いました[^ipsj]．
+また，この成果はIPSJ情報処理学会第81回全国大会[^ipsj]や，CYBERTECH TOKYO 2019でも発表を行いました．
 
 [成果発表ポスターへのリンク](https://sechack365.nict.go.jp/achievement/2018/?2018-2){:target="_blank"}
 
@@ -51,7 +51,7 @@ h2 {
 ---
 
 > プリント基板を使い小型化した100kinSAT．
-> メジャーを放射状に配置したタイヤが特徴．小型・軽量を活かして第14回種コンで8機同時投下しました．約100g．気球収納時はガチャガチャのカプセルを用いてコンパクトになります．8機作成したので，各機体に愛称がついています．写真に写っている機体はゲジ．
+> メジャーを放射状に配置したタイヤが特徴．小型・軽量を活かして第14回種コンで8機同時投下しました．約100g．気球収納時はガチャガチャのカプセルを用いてコンパクトになります．8機作成したので，各機体に愛称がついています．写真に写っている機体の愛称はゲジ．
 
 |:---:|:---:|:---:|
 |![v2_1](/assets/img/activities/100kinsat_v2_1.jpg){: width="400"}|![v2_2](/assets/img/activities/100kinsat_v2_2.jpg){: width="400"}|![v2_3](/assets/img/activities/100kinsat_v2_3.jpg){: width="400"}|
@@ -73,12 +73,12 @@ h2 {
 ---
 
 > ゲジをさらに小型化した機体．
-> 約50g（大会の上限は1050gなのでかなりの軽量！）．ゲジのメジャータイヤを踏襲しつつ，3Dプリンタで作成したらせん型のモータハブは落下時の衝撃を吸収する構造になっています．
+> 約50g（大会の上限は1050gなのでかなりの軽量！）．ゲジのメジャータイヤを踏襲しつつ，3Dプリンタで作成したらせん型のモータハブは落下時の衝撃を吸収する構造になっています．大会では6機同時投下を行いましたが，着地後，パラシュートが絡まりリタイアとなりました．各機体に識別用のうさぎやたぬきのシールを貼っています．
 
 |:---:|:---:|:---:|
 ![v4_1](/assets/img/activities/100kinsat_v4_1.jpg){: width="400"}|![v4_2](/assets/img/activities/100kinsat_v4_2.jpg){: width="400"}|![v4_3](/assets/img/activities/100kinsat_v4_3.png){: width="400"}|
 
-## ver.5（100kinSAT（ARLISS版））
+## ver.5（100kinSAT（ARLISS版））[^arliss]
 ---
 
 > 米国のブラックロック砂漠で行われる大規模な大会に出場した機体．海外での様々な試練を乗り越えた強者．
@@ -92,4 +92,5 @@ h2 {
 
 [^sechack]: [https://sechack365.nict.go.jp/report/2018/report07.html](https://sechack365.nict.go.jp/report/2018/report07.html){:target="_blank"}
 [^tane]: [http://www.jaxa-rocket-contest.jp/past/2018/](http://www.jaxa-rocket-contest.jp/past/2018/){:target="_blank"}
-[^ipsj]: [http://unisec.jp/history/arliss2019/pdf/100kinSAT.pdf](http://unisec.jp/history/arliss2019/pdf/100kinSAT.pdf){:target="_blank"}
+[^arliss]: [http://unisec.jp/history/arliss2019/pdf/100kinSAT.pdf](http://unisec.jp/history/arliss2019/pdf/100kinSAT.pdf){:target="_blank"}
+[^ipsj]: [https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=197338&item_no=1&page_id=13&block_id=8](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=197338&item_no=1&page_id=13&block_id=8){:target="_blank"}

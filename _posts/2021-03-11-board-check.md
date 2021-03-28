@@ -3,7 +3,7 @@ title: 基板の動作確認
 author: ymt117
 date: 2021-03-11
 categories: [CanSatをはじめる前に, 準備編]
-tags: [100kinsat, edusat]
+tags: [100kinsat, edusat, tutorial, led]
 ---
 
 ### Lチカ（I/Oの動作確認）
