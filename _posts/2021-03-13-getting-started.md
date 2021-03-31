@@ -41,6 +41,7 @@ pin: true
 ## 基礎編
 
 - [モータを制御しよう]({% post_url 2021-03-14-control-motor %}){:target="_blank"}
+- [GPSセンサの値を取得しよう]({% post_url 2021-03-28-get-gps-value %}){:target="_blank"}
 - [パラシュートの作り方]({% post_url 2021-03-13-make-parachute %}){:target="_blank"}
 
 ## 応用編
