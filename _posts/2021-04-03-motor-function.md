@@ -6,7 +6,7 @@ categories: [CanSatをはじめる前に, 基礎編]
 tags: [100kinsat, edusat, basic, motor]
 ---
 
-- [この記事で使うソースコード](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_motor_function{:target="_blank"}
+- [この記事で使うソースコード](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_motor_function){:target="_blank"}
 
 ここでは[モータを制御しよう]({% post_url 2021-03-14-control-motor %}){:target="_blank"}で書いたプログラムを関数化します．
 関数化することでよく使うプログラムを何度も書かずに使いまわすことができます．

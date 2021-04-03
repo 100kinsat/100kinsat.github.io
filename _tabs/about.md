@@ -62,7 +62,7 @@ _競技のシーケンス図_
 ## 連絡先
 ---
 
-質問等あれば，twitter（@_ymt_117）もしくはgmail（yamamto117<at>gmail.com）に連絡ください．（「<at>」は「@」に書き換えてください）
+質問等あれば，twitter（@_ymt_117）もしくはgmail（yamamto117`<at>`gmail.com）に連絡ください．（「`<at>`」は「@」に書き換えてください）
 
 ## 注意点
 ---
