@@ -6,6 +6,9 @@ categories: [CanSatをはじめる前に, 基礎編]
 tags: [100kinsat, edusat, basic, gps]
 ---
 
+<i class="{{ site.data.post.file }}"></i>
+[この記事で使うソースコード](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_gps_raw_data){:target="_blank"}
+
 ### GPSセンサについて
 
 100kinSATは秋月電子で購入できるGPSセンサを搭載しています．GPSセンサを使うと衛星から様々な情報を所得することができます．CanSat競技では，センサから緯度・経度の情報を所得することで自分の位置を把握してゴールに向かう制御を行う方法が一般的です．

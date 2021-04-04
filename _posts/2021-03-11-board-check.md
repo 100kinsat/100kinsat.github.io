@@ -6,6 +6,10 @@ categories: [CanSatをはじめる前に, 準備編]
 tags: [100kinsat, edusat, tutorial, led]
 ---
 
+
+<i class="{{ site.data.post.file }}"></i>
+[この記事で使うソースコード](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_blink){:target="_blank"}
+
 ### Lチカ（I/Oの動作確認）
 
 電子部品の実装を終えたら基板の動作確認をします．

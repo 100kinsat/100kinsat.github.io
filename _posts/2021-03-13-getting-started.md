@@ -7,6 +7,17 @@ tags: [100kinsat, edusat, tutorial, contents]
 pin: true
 ---
 
+<style>
+/* 記事のリストに使用する記号をfas fa-newspaperにする */
+.post-content ul {
+  list-style: none;
+}
+.post-content li:before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f1ea\0020\0020';
+}
+</style>
+
 このWebページは[@_ymt_117](https://twitter.com/_ymt_117){:target="_blank"}が開発した**初心者向けCanSat 100kinSAT（ひゃっきんさっと）**のサポートページです．
 「100円ショップで手に入るような安価な部品でつくれるCanSat」をコンセプトに100kinSATと名付けました．
 100kinSATやCanSat競技については「[100kinSATとは]({% link _tabs/about.md %}){:target="_blank"}」を読んでください．

@@ -6,6 +6,9 @@ categories: [CanSatをはじめる前に, 基礎編]
 tags: [100kinsat, edusat, basic, motor]
 ---
 
+<i class="{{ site.data.post.file }}"></i>
+[この記事で使うソースコード](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_motor){:target="_blank"}
+
 ## モータドライバ
 
 　モータを動かすためには大きな電流を必要とします．モータドライバICを使うことで簡単にモータを制御することができます．写真に写っているICが100kinSATのモータドライバIC（[TB6612FNG](http://akizukidenshi.com/catalog/g/gI-11317/){:target="_blank"}）です．
