@@ -36,39 +36,41 @@ void function2() {
 }
 ```
 
-モータの正転制御のプログラムは下記のように関数化できます．
-`ccw()`という関数にしました．
-ccwはCounterClockWiseを意味します．
-これで`loop`関数から`ccw(80)`のように呼び出すとモータの正転制御ができます．
+前進のプログラムは下記のように関数化できます．
+`forward()`という関数にしました．
+
+これで`loop`関数から`forward(80)`のように呼び出すと前進の制御ができます．
 このとき関数に80という引数（ひきすう）を渡しています．
 引数は関数が受け取る値で，今回は`int`型の`pwm`という変数を関数に定義しています．
 引数のpwmは0~255の値を渡すようにします．
 
 ```cpp
-/** 正転（反時計回り） */
-void ccw(int pwm) {
-  digitalWrite(motorA[0], LOW);
-  digitalWrite(motorA[1], HIGH);
+/** 前進 */
+void forward(int pwm) {
+  // 左モータ（CCW，反時計回り）
+  digitalWrite(motorA[1], LOW);
+  digitalWrite(motorA[0], HIGH);
   ledcWrite(CHANNEL_A, pwm);
-  
-  digitalWrite(motorB[0], LOW);
-  digitalWrite(motorB[1], HIGH);
+
+  // 右モータ（CW，時計回り）
+  digitalWrite(motorB[1], LOW);
+  digitalWrite(motorB[0], HIGH);
   ledcWrite(CHANNEL_B, pwm);
 }
 ```
 
-同様に，逆転と停止の制御をそれぞれ`cw()`，`stop()`という関数にします．
+同様に，逆転と停止の制御をそれぞれ`back()`，`stop()`という関数にします．
 関数にすることで`loop`関数は以下のようになります．
 
 ```cpp
 void loop() {
-  ccw(80);
+  forward(80);
   delay(1000);
 
   stop();
   delay(1000);
 
-  cw(80);
+  back(80);
   delay(1000);
 
   stop();
@@ -78,3 +80,6 @@ void loop() {
 
 関数化する前の`loop`関数と比較してソースコードを短く，わかりやすく書けるようになりました．
 特に停止の処理は，これまで同じ内容を2回書いていましたが，関数にすることで単に`stop()`と書くだけでよくなりました．
+
+プログラミングの基本的な考え方として`main`関数（Aruduinoの場合`loop`関数）の中身は短く書くようにします．
+また，関数の中身も短く，1つの関数に1つの機能というようにします．
