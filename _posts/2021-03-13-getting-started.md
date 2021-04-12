@@ -56,6 +56,7 @@ pin: true
 - [モータの制御プログラムをライブラリ化しよう]({% post_url 2021-04-06-motor-library %}){:target="_blank"}
 - [GPSセンサの値を取得しよう]({% post_url 2021-03-28-get-gps-value %}){:target="_blank"}
 - [緯度と経度を取得しよう]({% post_url 2021-04-09-get-lat-lng-value %}){:target="_blank"}
+- [GPSセンサで取得した位置情報をGoogleマップに描画しよう]({% post_url 2021-04-12-get-lat-lng-value-csv %}){:target="_blank"}
 - [9軸センサの値を取得しよう]({% post_url 2021-04-07-get-imu-value %}){:target="_blank"}
 - [パラシュートの作り方]({% post_url 2021-03-13-make-parachute %}){:target="_blank"}
 
