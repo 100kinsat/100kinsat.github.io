@@ -2,7 +2,7 @@
 title: 9軸センサの値を取得しよう
 author: ymt117
 date: 2021-04-06
-categories: [CanSatをはじめる前に, 基礎編]
+categories: [CanSatをはじめよう, 基礎編]
 tags: [100kinsat, edusat, basic, imu]
 ---
 
@@ -15,7 +15,7 @@ tags: [100kinsat, edusat, basic, imu]
 I2C通信についてはここでは詳しく説明しません．
 9軸センサを簡単に扱えるライブラリがあるため，今回はそちらをインストールして使います．
 
-[https://github.com/bolderflight/MPU9250](https://github.com/bolderflight/MPU9250)のGitHubリポジトリからライブラリをインストールしましょう．
+[https://github.com/bolderflight/MPU9250](https://github.com/bolderflight/MPU9250){:target="_blank"}のGitHubリポジトリからライブラリをインストールしましょう．
 下記画像に示すように「Code」→「Download ZIP」とクリックしてZIPファイルをダウンロードします．
 
 ![mpu1](/assets/img/post/get-imu-value/mpu9250.jpg){: width="80%"}

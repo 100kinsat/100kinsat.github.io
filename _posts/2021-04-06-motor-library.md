@@ -2,7 +2,7 @@
 title: モータの制御プログラムをライブラリ化しよう
 author: ymt117
 date: 2021-04-06
-categories: [CanSatをはじめる前に, 基礎編]
+categories: [CanSatをはじめよう, 基礎編]
 tags: [100kinsat, edusat, basic, motor]
 ---
 

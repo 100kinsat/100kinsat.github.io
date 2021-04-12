@@ -2,7 +2,7 @@
 title: モータを制御しよう
 author: ymt117
 date: 2021-03-14
-categories: [CanSatをはじめる前に, 基礎編]
+categories: [CanSatをはじめよう, 基礎編]
 tags: [100kinsat, edusat, basic, motor]
 ---
 
