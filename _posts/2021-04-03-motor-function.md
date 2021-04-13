@@ -14,6 +14,7 @@ tags: [100kinsat, edusat, basic, motor]
 また，ソースコードの削減や可読性の向上が期待できます．
 
 ## 関数を作成する
+---
 
 Arduinoのプログラムは`setup`関数と`loop`関数が必要です．
 それ以外に関数を追加したい場合は下記のように`function1()`や`function2()`を追加します．

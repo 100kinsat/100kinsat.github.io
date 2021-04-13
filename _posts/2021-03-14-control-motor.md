@@ -10,6 +10,7 @@ tags: [100kinsat, edusat, basic, motor]
 [この記事で使うソースコード](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_motor){:target="_blank"}
 
 ## モータドライバ
+---
 
 モータを動かすためには大きな電流を必要とします．モータドライバICを使うことで簡単にモータを制御することができます．写真に写っているICが100kinSATのモータドライバIC（[TB6612FNG](http://akizukidenshi.com/catalog/g/gI-11317/){:target="_blank"}）です．
 
@@ -19,6 +20,7 @@ _モータドライバIC_
 TB6612FNGは1つのICで2つのモータを制御することができます．
 
 ## モータの制御
+---
 
 マイコンのGPIOピン3つ（IN1，IN2，PWM）で1つのモータを制御します．IN1とIN2のHIGHとLOWの組み合わせでモータの正転と逆転，ストップ，ブレーキを操作できます．PWMは0～255までの値を指定し，モータの回転速度の強弱を制御することができます．Arduino UNOでは`analogWrite()`関数を使用することができますが，ESP32ではLEDC機能を利用することで`analogWrite()`と同様の機能を使うことができます．各ピンの入力によるモータの出力の関係は表のとおりです．
 
@@ -30,6 +32,7 @@ _モータへの入力と出力の関係_
 モータ用のプログラムは[motor1.ino](https://gist.github.com/ymt117/1b4b46b52df050628812f843fe81b65b){:target="_blank"}を使います．
 
 ## ソースコードの説明
+---
 
 ### モータ制御ピンの設定
 

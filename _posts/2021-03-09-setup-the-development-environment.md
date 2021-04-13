@@ -6,13 +6,15 @@ categories: [CanSatをはじめる前に, 準備編]
 tags: [100kinsat, edusat, tutorial, arduino]
 ---
 
-### 動作環境
+## 動作環境
+---
 
 |OS|Windows 10|
 |:---:|:---:|
 |IDE|Arduino IDE ver1.8.X|
 
-### STEP1：Arduino IDEのインストール
+## STEP1：Arduino IDEのインストール
+---
 
 STEP1ではArduino IDEのインストールを行います．
 
@@ -43,7 +45,8 @@ Window10の場合，Microsoft Storeが開くので，「入手」をクリック
 Arduino IDEが起動しました！
 
 
-### STEP2：ESP32開発ボードの環境セットアップ
+## STEP2：ESP32開発ボードの環境セットアップ
+---
 
 STEP1でArduino IDEのインストールが完了したと思います．
 

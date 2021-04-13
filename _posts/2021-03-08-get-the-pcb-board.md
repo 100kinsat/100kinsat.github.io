@@ -6,11 +6,13 @@ categories: [CanSatをはじめる前に, 準備編]
 tags: [100kinsat, edusat, tutorial, pcb]
 ---
 
-### はじめに
+## はじめに
+---
 
 100kinSATの基板は設計データを中国の企業（[ELECROW](https://www.elecrow.com/)）に発注することで入手できます．注文にはクレジットカードが必要となります．料金は送料込みで10枚2000円ほどかかります．
 
-### STEP1：ガーバデータの入手
+## STEP1：ガーバデータの入手
+---
 
 まずは基板の発注用データ（ガーバデータ）をダウンロードします．
 
@@ -34,13 +36,14 @@ tags: [100kinsat, edusat, tutorial, pcb]
 
 ※「X」は任意の数
 
-### STEP2：基板の発注
+## STEP2：基板の発注
+---
 
 次に基板の発注を行います．
 
 STEP2では[ELECROW](https://www.elecrow.com/)という会社の基板発注サービスを利用する方法を説明します．
 
-#### 発注の流れ
+### 発注の流れ
 
  1. ログイン（新規の場合は会員登録）
  1. 基板データ（ガーバファイルを圧縮したZipファイル）のアップロード
@@ -83,7 +86,8 @@ ZIPファイルのアップロードが完了したら，発注する基板に�
 ![elecrow6](/assets/img/post/get-the-pcb-board/elecrow_6.png){: width="50% .normal}
 ![elecrow7](/assets/img/post/get-the-pcb-board/elecrow_7.png){: width="50% .normal}
 
-### STEP3：基板の受け取り
+## STEP3：基板の受け取り
+---
 
 早ければ1週間ほどで基板が届きます．
 2月頃は春節（旧正月）のため製造が遅くなりますので確認してください．

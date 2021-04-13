@@ -10,7 +10,8 @@ tags: [100kinsat, edusat, tutorial, led]
 <i class="{{ site.data.post.file }}"></i>
 [この記事で使うソースコード](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_blink){:target="_blank"}
 
-### Lチカ（I/Oの動作確認）
+## Lチカ（I/Oの動作確認）
+---
 
 電子部品の実装を終えたら基板の動作確認をします．
 
@@ -81,9 +82,10 @@ COMポートの番号はボードによって異なるので写真と異なる�
 
 Lチカ出来ましたね！
 
-### ソースコードの説明
+## ソースコードの説明
+---
 
-#### マクロ定義
+### マクロ定義
 
 ```cpp
 #define LED 2
@@ -104,7 +106,7 @@ GPIO2ピンをLEDという名前にマクロ定義しています．
 
 また，プログラムの書き間違いを防止することにも繋がります．
 
-#### setup関数
+### setup関数
 
 ```cpp
 void setup() {
@@ -121,7 +123,7 @@ setup関数ではGPIOピンの入出力を設定したりシリアル通信の�
 
 ここでは「LED（2）」を「OUTPUT（出力）」に設定しています．
 
-#### loop関数
+### loop関数
 
 loop関数はsetup関数で各種設定を行ったあと実行される関数です．
 

@@ -7,12 +7,10 @@ tags: [100kinsat, edusat, basic, gps sensor]
 ---
 
 <i class="{{ site.data.post.file }}"></i>
-[この記事で使うソースコード(1)](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_gps_lat_lng){:target="_blank"}
-
-<i class="{{ site.data.post.file }}"></i>
-[この記事で使うソースコード(2)](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_gps_lat_lng_csv){:target="_blank"}
+[この記事で使うソースコード](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_gps_lat_lng){:target="_blank"}
 
 ## ライブラリのインストール
+---
 
 [GPSセンサの値を取得しよう]({% post_url 2021-03-28-get-gps-value %}){:target="_blank"}でGPSセンサが受信する値を取得しました．
 
@@ -27,6 +25,7 @@ CanSatの誘導においてGPSセンサから取得した値のうち，緯度�
 インストールの詳しい方法は[9軸センサの値を取得しよう]({% post_url 2021-04-07-get-imu-value %}){:target="_blank"}で詳しく説明しています．
 
 ## 緯度・経度を取得するプログラムを作成する
+---
 
 ライブラリのインストールが完了したら，緯度・経度を取得するプログラムを作成していきます．
 まずはライブラリをincludeします．

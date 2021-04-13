@@ -10,6 +10,7 @@ tags: [100kinsat, edusat, basic, gps sensor]
 [この記事で使うソースコード](https://github.com/100kinsat/100kinsat_ver_3_4_code/blob/main/100kinsat_gps_lat_lng_csv){:target="_blank"}
 
 ## TeraTermのインストール
+---
 
 [緯度と経度を取得しよう]({% post_url 2021-04-09-get-lat-lng-value %}){:target="_blank"}でGPSセンサから取得した情報から緯度・経度の値のみを取得することができました．
 
@@ -28,6 +29,9 @@ CanSatは競技のあと制御ログを提出する必要があります．
 ![gps-map](/assets/img/post/get-gps-value-lat-lng-csv/gps_map.png){: width="80%"}
 _Googleマップに描画した様子_
 
+![gps-cansat](/assets/img/post/get-gps-value-lat-lng-csv/gps_cansat.jpg){: width="80%"}
+_屋外で実験している様子_
+
 緯度・経度の情報をCSVファイルとして出力するためにTeraTermを使用します．
 TeraTermを使用して，Arduino IDEのシリアルコンソールと同じようにCOMポートから取得したシリアル通信の内容を表示することができます．
 TeraTermは下記からダウンロードしてください．
@@ -35,6 +39,7 @@ TeraTermは下記からダウンロードしてください．
 - [https://ttssh2.osdn.jp/index.html.ja](https://ttssh2.osdn.jp/index.html.ja){:target="_blank"}
 
 ## CSVファイル形式（カンマ区切り）のログを出力するプログラム
+---
 
 [緯度と経度を取得しよう]({% post_url 2021-04-09-get-lat-lng-value %}){:target="_blank"}では下記のようなログをシリアルコンソールに出力していました．
 
@@ -59,6 +64,7 @@ Serial.println(gps.location.lng(), 6);
 ```
 
 ## TeraTermに出力してみる
+---
 
 CanSatをPCに接続してTeraTermを起動します．
 「新しい接続」の画面が開くので「シリアル」にチェックを入れてCanSatのポートを選択します．
@@ -86,6 +92,7 @@ _ボーレートの設定(2)_
 _緯度・経度が出力された様子_
 
 ## TeraTermの出力をCSVファイルとして保存する
+---
 
 次に出力された値をCSVファイルとして保存します．
 メニューの「ファイル」>「ログ」を開いて，保存場所を選択します．
@@ -121,6 +128,7 @@ _ログの保存(2)_
 ```
 
 ## Googleマップに描画する
+---
 
 最後に緯度・経度を記録したCSVファイルを使ってGoogleマップに移動経路を描画してみます．
 
