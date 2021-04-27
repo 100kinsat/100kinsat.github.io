@@ -8,7 +8,7 @@ tags: [100kinsat, edusat, tutorial, pcb, 電子回路]
 
 ## 回路図
 ---
-下画像が100kinsatの回路図全体になります
+下画像が100kinSATの回路図全体になります
 
 サイト上で画像が見にくい場合はPDFをDLして参照してください→
 [回路図PDF]({{ site.url }}/assets/img/post/electronic-circuit-articles/100kinSAT_ver3.4.pdf)
@@ -23,7 +23,7 @@ tags: [100kinsat, edusat, tutorial, pcb, 電子回路]
 
 
 #### マイコン
-cansatの頭脳です、ここにプログラムを書き込むことで制御信号などを各素子に出力したり、センサーからの値を処理したりします。
+CanSatの頭脳です、ここにプログラムを書き込むことで制御信号などを各素子に出力したり、センサーからの値を処理したりします。
 
 ![回路図_マイコン](/assets/img/post/electronic-circuit-articles/100kinSAT_ver3.4_microcomputer.jpg){: width="40% .normal}
 
