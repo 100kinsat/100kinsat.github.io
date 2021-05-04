@@ -47,7 +47,7 @@ pin: true
 
 ## 構造
 
-- 100kinSATの構成（システム設計）について
+- [100kinSATの構成（システム設計）について]({% post_url 2021-05-02-cansat-system-diagram %}){:target="_blank"}
 
 ## 電子回路
 - [回路図の概要]({% post_url 2021-04-23-electronic-circuit-articles %}){:target="_blank"}
