@@ -16,7 +16,7 @@ tags: [100kinsat, edusat, basic, imu]
 I2C通信についてはここでは詳しく説明しません．
 9軸センサを簡単に扱えるライブラリがあるため，今回はそちらをインストールして使います．
 
-[https://github.com/bolderflight/MPU9250](https://github.com/bolderflight/MPU9250){:target="_blank"}のGitHubリポジトリからライブラリをインストールしましょう．
+[https://github.com/bolderflight/mpu9250-arduino](https://github.com/bolderflight/mpu9250-arduino){:target="_blank"}のGitHubリポジトリからライブラリをインストールしましょう．
 下記画像に示すように「Code」→「Download ZIP」とクリックしてZIPファイルをダウンロードします．
 
 ![mpu1](/assets/img/post/get-imu-value/mpu9250.jpg){: width="80%"}
@@ -69,33 +69,28 @@ _シリアルプロッタの画面_
 渡している引数は，第一引数が`Wire`ライブラリのインスタンス，第二引数がMPU9250のI2Cアドレスです．
 
 ```cpp
-#include "MPU9250.h"
+#include "mpu9250.h"
 
-// an MPU9250 object with the MPU-9250 sensor on I2C bus 0 with address 0x68
-MPU9250 IMU(Wire,0x68);
+/* An Mpu9250 object with the MPU-9250 sensor on I2C bus 0 with address 0x68 */
+Mpu9250 imu(&Wire, 0x68);
 ```
 
 `setup`関数では，シリアル通信の初期化と9軸センサとの通信の開始（I2C通信の開始）をしています．
 
-`IMU.begin()`が9軸センサとの通信の開始です．
-`begin()`メソッドは9軸センサの初期設定を行い，通信の準備が完了すると返り値として`1`を返します．
-初期設定に失敗すると負の値が返って来ます．
-int型の変数`status`に返り値が代入されるので，if文による判定で初期設定に失敗したらエラーのメッセージがシリアルモニタに表示されます．
+`imu.Begin()`が9軸センサとの通信の開始です．
+`Begin()`メソッドは9軸センサの初期設定を行い，通信の準備が完了すると返り値として`true`を返します．
+初期設定に失敗すると`false`が返って来ます．
+if文による判定で初期設定に失敗したらエラーのメッセージがシリアルモニタに表示されます．
 初期設定に成功したら`loop`関数に遷移します．
 
 ```cpp
 void setup() {
-  // serial to display data
+  /* Serial to display data */
   Serial.begin(115200);
   while(!Serial) {}
-
-  // start communication with IMU 
-  status = IMU.begin();
-  if (status < 0) {
+  /* Start communication */
+  if (!imu.Begin()) {
     Serial.println("IMU initialization unsuccessful");
-    Serial.println("Check IMU wiring or try cycling power");
-    Serial.print("Status: ");
-    Serial.println(status);
     while(1) {}
   }
 }
@@ -103,9 +98,9 @@ void setup() {
 
 `loop`関数では，9軸センサから値を取得してシリアルモニタに出力する処理を行っています．
 
-`IMU.readSensor()`でセンサの値を読み取っています．
-読み取った値のうち加速度センサのX軸の値は`getAccelX_mss()`メソッドで取得できます．
-Y軸，Z軸は`getAccelY_mss()`，`getAccelZ_mss()`メソッドで取得できます．
+`imu.Read()`でセンサの値を読み取っています．
+読み取った値のうち加速度センサのX軸の値は`accel_x_mps2()`メソッドで取得できます．
+Y軸，Z軸は`accel_y_mps2`，`accel_z_mps2()`メソッドで取得できます．
 同様に，ジャイロセンサや地磁気センサの各値も取得するメソッドも用意されています．
 
 `Serial.print("\t");`の「\t」はタブ文字を出力しています．
@@ -113,28 +108,29 @@ Y軸，Z軸は`getAccelY_mss()`，`getAccelZ_mss()`メソッドで取得でき�
 
 ```cpp
 void loop() {
-  // read the sensor
-  IMU.readSensor();
-  // display the data
-  Serial.print(IMU.getAccelX_mss(),6);
-  Serial.print("\t");
-  Serial.print(IMU.getAccelY_mss(),6);
-  Serial.print("\t");
-  Serial.print(IMU.getAccelZ_mss(),6);
-  Serial.print("\t");
-  Serial.print(IMU.getGyroX_rads(),6);
-  Serial.print("\t");
-  Serial.print(IMU.getGyroY_rads(),6);
-  Serial.print("\t");
-  Serial.print(IMU.getGyroZ_rads(),6);
-  Serial.print("\t");
-  Serial.print(IMU.getMagX_uT(),6);
-  Serial.print("\t");
-  Serial.print(IMU.getMagY_uT(),6);
-  Serial.print("\t");
-  Serial.print(IMU.getMagZ_uT(),6);
-  Serial.print("\t");
-  Serial.println(IMU.getTemperature_C(),6);
+  /* Read the sensor */
+  if (imu.Read()) {
+    /* Display the data */
+    Serial.print(imu.accel_x_mps2(), 6);
+    Serial.print("\t");
+    Serial.print(imu.accel_y_mps2(), 6);
+    Serial.print("\t");
+    Serial.print(imu.accel_z_mps2(), 6);
+    Serial.print("\t");
+    Serial.print(imu.gyro_x_radps(), 6);
+    Serial.print("\t");
+    Serial.print(imu.gyro_y_radps(), 6);
+    Serial.print("\t");
+    Serial.print(imu.gyro_z_radps(), 6);
+    Serial.print("\t");
+    Serial.print(imu.mag_x_ut(), 6);
+    Serial.print("\t");
+    Serial.print(imu.mag_y_ut(), 6);
+    Serial.print("\t");
+    Serial.print(imu.mag_z_ut(), 6);
+    Serial.print("\t");
+    Serial.println(imu.die_temperature_c(), 6);
+  }
   delay(100);
 }
 ```
