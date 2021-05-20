@@ -1,7 +1,8 @@
 ---
-title: 基板の動作確認
+title: LEDを制御しよう
 author: ymt117
 date: 2021-03-11
+last_modified_at: 2021-05-20
 categories: [CanSatをはじめる前に, 準備編]
 tags: [100kinsat, edusat, tutorial, led]
 ---
@@ -10,12 +11,13 @@ tags: [100kinsat, edusat, tutorial, led]
 <i class="{{ site.data.post.file }}"></i>
 [この記事で使うソースコード](https://github.com/100kinsat/100kinsat_ver_3_4_code/tree/main/100kinsat_blink){:target="_blank"}
 
-## Lチカ（I/Oの動作確認）
+## Lチカ
 ---
 
-電子部品の実装を終えたら基板の動作確認をします．
-
-Lチカのプログラムを書き込んで動作確認をしましょう．
+ここではLEDの制御をします．
+プログラミングの世界では，C言語やJavaなどを初めて学ぶときに単に`Hello World!`と表示するプログラムを作成することが多いです．
+電子工作の世界では，マイコンを初めて使うときにLEDを点滅させるLチカと呼ばれる実験をします．
+早速Lチカのプログラムを書き込んでLEDをチカチカさせましょう．
 
 まず[開発環境のセットアップ]({% post_url 2021-03-09-setup-the-development-environment %})でインストールしたArduino IDEを起動してください．
 
