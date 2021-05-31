@@ -2,6 +2,7 @@
 title: 緯度と経度を取得しよう
 author: ymt117
 date: 2021-04-09
+last_modified_at: 2021-05-31
 categories: [CanSatをはじめよう, 基礎編]
 tags: [100kinsat, edusat, basic, gps sensor]
 ---
@@ -15,7 +16,7 @@ tags: [100kinsat, edusat, basic, gps sensor]
 [GPSセンサの値を取得しよう]({% post_url 2021-03-28-get-gps-value %}){:target="_blank"}でGPSセンサが受信する値を取得しました．
 
 受信した値は，緯度経度等の情報を含む文字の羅列でした．
-CanSatの制御プログラムを書いていく上では，ここから必要な情報を取り出しす必要があります．
+CanSatの制御プログラムを書いていく上では，ここから必要な情報を取り出す必要があります．
 
 CanSatの誘導においてGPSセンサから取得した値のうち，緯度と経度の情報を使う場合が多いです．
 ここでは，ライブラリを使ってGPSセンサが受信した値から，緯度と経度を取得していきます．
