@@ -56,7 +56,7 @@ pin: true
 
 - [LEDを制御しよう]({% post_url 2021-03-11-board-check %}){:target="_blank"}
 - [スイッチの動作確認をしよう]({% post_url 2021-06-07-button %}){:target="_blank"}
-- スピーカーを鳴らしてみよう
+- [スピーカーを鳴らしてみよう]({% post_url 2021-06-15-speaker %}){:target="_blank"}
 
 ## モーター
 
@@ -76,7 +76,7 @@ pin: true
 
 ## SDカード
 
-- ファイルの読み書きをしよう
+- [ファイルの読み書きをしよう]({% post_url 2021-05-20-sd-card-sample %}){:target="_blank"}
 - センサの値を記録しよう
 
 ## パラシュート
