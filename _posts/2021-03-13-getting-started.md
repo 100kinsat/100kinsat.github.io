@@ -55,7 +55,7 @@ pin: true
 ## LED・スイッチ・スピーカー
 
 - [LEDを制御しよう]({% post_url 2021-03-11-board-check %}){:target="_blank"}
-- スイッチを使ってみよう
+- [スイッチの動作確認をしよう]({% post_url 2021-06-07-button %}){:target="_blank"}
 - [スピーカーを鳴らしてみよう]({% post_url 2021-06-15-speaker %}){:target="_blank"}
 
 ## モーター
