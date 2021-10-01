@@ -106,3 +106,8 @@ pin: true
 
 - 参照しやすい制御ログを保存しよう
 - 制御の状態遷移を記録して，起動時に読み込もう
+
+# その他
+
+- [トラブルシュート]({% post_url 2021-03-11-trouble-shooting %}){:target="_blank"}
+- [基板の設計ミスと修正に関して]({% post_url 2021-10-01-fix-circuit-board %}){:target="_blank"}
