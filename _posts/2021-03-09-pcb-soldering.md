@@ -54,6 +54,10 @@ r { color: Red }
 また，注意点として**ESP32マイコンボードは裏面のモータドライバと抵抗をはんだ付けしてから実装してください．**
 先にESPマイコンを実装してしまうと，モータドライバと抵抗のはんだ付け面が隠れてしまい実装できなくなります．
 
+はんだづけの工程をYouTubeに公開しているので参考にしてください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mVEYug65S1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 抵抗のはんだ付け
 ---
 
