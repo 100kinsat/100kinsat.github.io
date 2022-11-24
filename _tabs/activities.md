@@ -31,6 +31,18 @@ h2 {
 8機ものCanSatを同時投下したチームは私たちが初めてでした．
 私たちのチームは，審査員特別賞をいただきました[^tane]．
 
+# セキュリティ・ネクストキャンプ
+
+## 2021年
+
+[セキュリティ・ネクストキャンプ 2021 オンライン](https://www.ipa.go.jp/jinzai/camp/2021/next2021_index.html)で講義を行いました。
+
+## 2022年
+
+[セキュリティ・ネクストキャンプ 2022 オンライン](https://www.ipa.go.jp/jinzai/camp/2022/next2022_index.html)で講義を行いました。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">山本 悠介氏、須藤 順平氏、松田 翔太氏による「CanSatをはじめよう」の講義では空き缶サイズの模擬人工衛星をゴールに導く制御プログラムを開発しました。実際に屋外でCanSatを走らせ、各種センターを活用しながら、理論通りにはいかないハードウェア開発の難しさを実感しました。 <a href="https://twitter.com/hashtag/seccamp?src=hash&amp;ref_src=twsrc%5Etfw">#seccamp</a> <a href="https://t.co/WGKh81l0ao">pic.twitter.com/WGKh81l0ao</a></p>&mdash; セキュリティ・キャンプ (@security_camp) <a href="https://twitter.com/security_camp/status/1557673926486298627?ref_src=twsrc%5Etfw">August 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 # これまで作成した100kinSAT
 ---
 
