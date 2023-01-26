@@ -3,7 +3,7 @@
 
 #issue番号
 
-issue番号を書いて，issueと紐づける
+issue番号を書いて、issueと紐づける
 
 # 変更点
 
