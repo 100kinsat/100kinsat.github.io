@@ -16,6 +16,12 @@ pin: true
 }
 </style>
 
+> 種子島ロケットコンテスト2024にて、100kinSATをリニューアルしました。
+> メインのマイコンを新しくして、入手できなくなった部品等を見直しています。
+> 新しい100kinSATに関する解説記事はZennにて公開しています。
+> 旧100kinSATに関するページはそのまま残しますが、今後は以下の記事で新しい100kinSATを対象に情報を更新していく予定です。
+> https://zenn.dev/ymt117?tab=books
+
 このWebページは[@_ymt_117](https://twitter.com/_ymt_117){:target="_blank"}が開発した**初心者向けCanSat 100kinSAT（ひゃっきんさっと）**のサポートページです。
 「100円ショップで手に入るような安価な部品でつくれるCanSat」をコンセプトに100kinSATと名付けました。
 100kinSATやCanSat競技については「[100kinSATとは]({% link _tabs/about.md %}){:target="_blank"}」を読んでください。
