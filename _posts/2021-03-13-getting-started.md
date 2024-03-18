@@ -17,6 +17,7 @@ pin: true
 </style>
 
 # 100kinSATのリニューアルについて
+---
 
 種子島ロケットコンテスト2024にて、100kinSATをリニューアルしました。
 メインのマイコンを新しくして、入手できなくなった部品等を見直しています。
@@ -27,6 +28,7 @@ pin: true
 - [https://zenn.dev/ymt117?tab=books](https://zenn.dev/ymt117?tab=books)
 
 # はじめに
+---
 
 このWebページは[@_ymt_117](https://twitter.com/_ymt_117){:target="_blank"}が開発した**初心者向けCanSat 100kinSAT（ひゃっきんさっと）**のサポートページです。
 「100円ショップで手に入るような安価な部品でつくれるCanSat」をコンセプトに100kinSATと名付けました。
